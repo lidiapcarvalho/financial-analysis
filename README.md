@@ -67,18 +67,19 @@ The specific source for each datasetor financial figure will be documented durin
 
 ## Project Structure
 
-financial-analysis/ 
-│ 
-├── data/ 
-├── src/ 
-├── tests/ 
-├── .gitignore 
-├── README.md 
-├── requirements.txt 
+```text
+financial-analysis/
+├── data/
+├── src/
+├── tests/
+├── .gitignore
+├── README.md
+├── requirements.txt
 ├── financial-concepts.md
-├── financial-glossary.md 
-├── notes.md 
+├── financial-glossary.md
+├── notes.md
 └── work-diary.md
+```
 
 ## Project Goals
 
