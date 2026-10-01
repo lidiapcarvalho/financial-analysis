@@ -82,3 +82,47 @@ Initial indicators:
     - Portuguese translation
     - Meaning/context
     - Learning status
+
+## 29 September 2026
+
+### Financial Glossary
+
+- Added `financial-glossary.md`
+- Defined a colour-coded status system:
+    - 🟢 Familiar
+    - 🟡 Learning
+    - 🔴 Review
+- Added financial terms introduced in the README:
+    - Revenue
+    - Operating Income
+    - Net Income
+    - Total Assets
+    - Total Liabilities
+    - Shareholders' Equity
+    - Revenue Growth
+    - Operating Margin
+    - Net Profit Margin
+    - Return on Assets (ROA)
+    - Return on Equity (ROE)
+    - Financial Performance
+    - Business Profile
+    - Reporting Currency
+    - Exchange Rate
+    - Currency Conversion
+    - Luxury Goods
+    - Diversified
+    - Conglomerate
+- Adjusted the status of terms according to previous knowledge
+- Added notes about about the distinction between `Revenue` and `Income`
+- Clarified that `Revenue` is translated as **receita** in the context of this project
+
+### Project Strucutre
+
+- Corrected the project structure display in `README.md`
+- Added `financial-glossary.md` to the documentation project structure
+- Used a code block to preserve the folder and file hierarchy correctly in Markdown
+
+### Language Learning
+
+- Identified that much of the financial vocabulary used in the project is already recognisable
+- Decided to use the project as an opportunity to consolidate technical financial English rather than learning everything from scratch
