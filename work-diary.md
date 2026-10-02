@@ -1,7 +1,5 @@
 # Work Diary
 
->
-
 ## 29 September 2026
 
 ### Project Definition
@@ -13,12 +11,12 @@
 ### Industry Selection
 
 - Considered two industries:
-    - Automotive
-    - Luxury goods
+  - Automotive
+  - Luxury goods
 - Selected the **luxury goods sector**
 - Reason:
-    - The automotive industry was already used in a previoues Silumação Empresarial project
-    - The luxury sector provides an opportunity to explore a different industry
+  - The automotive industry was already used in a previoues Silumação Empresarial project
+  - The luxury sector provides an opportunity to explore a different industry
 
 ### Company Selection
 
@@ -38,9 +36,9 @@ The companies were selected because:
 
 - Defined the analysis period as **2020-2025**
 - The period includes:
-    - COVID-19 disruption
-    - Subsequent recovery
-    - Following years of financial performance
+  - COVID-19 disruption
+  - Subsequent recovery
+  - Following years of financial performance
 
 ### Initial Financial Metrics
 
@@ -78,40 +76,40 @@ Initial indicators:
 
 - `financial-concepts.md` will contain explanations, formulas, and notes about financial concepts
 - `financial-glossary.md` will contain financial vocabulary:
-    - English term
-    - Portuguese translation
-    - Meaning/context
-    - Learning status
+  - English term
+  - Portuguese translation
+  - Meaning/context
+  - Learning status
 
-## 29 September 2026
+## 30 September 2026
 
 ### Financial Glossary
 
 - Added `financial-glossary.md`
 - Defined a colour-coded status system:
-    - 🟢 Familiar
-    - 🟡 Learning
-    - 🔴 Review
+  - 🟢 Familiar
+  - 🟡 Learning
+  - 🔴 Review
 - Added financial terms introduced in the README:
-    - Revenue
-    - Operating Income
-    - Net Income
-    - Total Assets
-    - Total Liabilities
-    - Shareholders' Equity
-    - Revenue Growth
-    - Operating Margin
-    - Net Profit Margin
-    - Return on Assets (ROA)
-    - Return on Equity (ROE)
-    - Financial Performance
-    - Business Profile
-    - Reporting Currency
-    - Exchange Rate
-    - Currency Conversion
-    - Luxury Goods
-    - Diversified
-    - Conglomerate
+  - Revenue
+  - Operating Income
+  - Net Income
+  - Total Assets
+  - Total Liabilities
+  - Shareholders' Equity
+  - Revenue Growth
+  - Operating Margin
+  - Net Profit Margin
+  - Return on Assets (ROA)
+  - Return on Equity (ROE)
+  - Financial Performance
+  - Business Profile
+  - Reporting Currency
+  - Exchange Rate
+  - Currency Conversion
+  - Luxury Goods
+  - Diversified
+  - Conglomerate
 - Adjusted the status of terms according to previous knowledge
 - Added notes about about the distinction between `Revenue` and `Income`
 - Clarified that `Revenue` is translated as **receita** in the context of this project
@@ -126,3 +124,45 @@ Initial indicators:
 
 - Identified that much of the financial vocabulary used in the project is already recognisable
 - Decided to use the project as an opportunity to consolidate technical financial English rather than learning everything from scratch
+
+## 01 October 2026
+
+### Data Preparation
+
+- Started preparing the financial data collection phase
+- Created a company-based structure inside the `data/` folder
+- Began collecting LVMH financial reports and financial statements in PDF format
+- Started reviewing the reports from **2025 backwards to 2020**
+
+### LVMH Data
+
+- Identified that LVMH reports financial results by business group/product category
+- Examples include:
+    - Wines & Spirits
+    - Fashion & Leather Goods
+    - Perfumes & Cosmetics
+    - Watches & Jewelry
+- Noted that segment-level financial information may provide an additional dimensio for the analysis
+
+### Source Checklist
+
+- Started organising a checklist to track the availability of the required financial information
+- The checklist will be used to record:
+    - Revenue
+    - Operating Income
+    - Net Income
+    - Total Assets
+    - Total Liabilities
+    - Shareholders' Equity
+    - Source and page reference
+
+### Data Issue Identified
+
+- A possible gap was identified for **2022** while reviewing the LVMH reports
+- 2021 contains the expected information, so the reason for the apparente 2022 gap needs to be investigated before continuing the data collection
+
+### Tools
+
+- Started using LibreOffice Calc to organise the data-source checklist
+- Tested an Office Viewer extension in VS Code
+- The current extension may be replaced if a more reliable option is found
