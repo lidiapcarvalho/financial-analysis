@@ -166,3 +166,33 @@ Initial indicators:
 - Started using LibreOffice Calc to organise the data-source checklist
 - Tested an Office Viewer extension in VS Code
 - The current extension may be replaced if a more reliable option is found
+
+## 02 October 2026
+
+### LVMH
+
+- Located the LVMH **2022 financial report**, after initially thinking there was a gap in the available documents
+-  Discovered the LVMH **Financial Calendar**, which may be useful for identifying publication dates and financial events
+- Subscribed to LVMH's financial newsletter
+
+### Financial Communication
+
+- Subscribed to the financial newsletters of the three selected groups:
+  - LVMH
+  - Kering
+  - Richemont
+- Noted that the financial communication of large international groups is much broader than initially expected
+
+### Kering
+
+- Started reviewing Kering's financial documents
+- Identified that some documents use **French file names** and that some reports are also available in French
+- Noted that the documents are not completely uniform across years.
+- 2023 documentation was not immediately located
+- The 2020 documentation contains more information than some of the more recent documents reviewed so far
+- Noted this as an issue to investigate rather than assuming a reason for the differences in documentation
+
+### French Financial Vocabulary
+
+- Identified an opportunity to use the Kering documentation to practise financial terminology in French as well as English
+
