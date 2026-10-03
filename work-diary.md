@@ -196,3 +196,25 @@ Initial indicators:
 
 - Identified an opportunity to use the Kering documentation to practise financial terminology in French as well as English
 
+## 03 October 2026
+
+### Richemont
+
+- Completed the collection of Richemont financial documents for 2020-2026
+- Noted that the 2020 and 2021 oficial PDFs were password-protected
+- Located accessible copies of the financial documents through AnnualReports.com
+- The financial information itself remains sourced from Richemont's published financial reports
+- Noted that Richemont's financial reporting period differs from LVMH and Kering and will require careful treatment when aligning the data
+
+### Source Collection
+
+- Completed the initial document collection for all three companies:
+  - LVMH: 2020–2025
+  - Kering: 2020–2025
+  - Richemont: 2020–2026
+
+### Next Step
+
+- Begin reviewing the financial statements and identifying the required financial data
+- Map the terminology used by each company before creating the final dataset
+- Record the exact source document and page for each financial figure
