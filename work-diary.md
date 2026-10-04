@@ -218,3 +218,39 @@ Initial indicators:
 - Begin reviewing the financial statements and identifying the required financial data
 - Map the terminology used by each company before creating the final dataset
 - Record the exact source document and page for each financial figure
+
+## 04 October 2026
+
+### Financial Statements
+
+- Reviewed the financial statements of the three selected groups
+- Mapped the pages containing the relevant consolidated financial statements
+- Confirmed that the analysis will use consolidated financial statements rather than individual company statements
+- For Kering, the analysis will focus on the Kering Group consolidated financial statements, not Kering SA's separate financial statements
+
+### LVMH
+
+- Identified references to Hong Kong dollars (HKD) in the financial documentation
+- Noted that currencies appearing in the reports do not necessarily represent the reporting currency of the consolidated financial statements
+- Currency used for the dataset will be determined from the consolidated financial statements
+
+### Kering
+
+- Reviewed the distinction between the Universal Registration Document and more specific financial documents
+- Confirmed that the consolidated financial statements are the relevant source for the project
+- The 2023 documentation will be reviewed to ensure that all required financial information is available
+
+### Richemont
+
+- Noted that the financial reporting structure differs from LVMH and Kering
+- For 2020, 2021 and 2022, a separate Income Statement was not identified in the reviewed documents
+- The available statement is the Statement of Comprehensive Gains and Losses / Statement of Comprehensive Income
+- This difference in presentation will be investigated before extracting the final dataset
+- Some Richemont PDFs have restrictions that prevent certain annotations such as highlighting/underlining
+- Recorded the pages containing the relevant financial statements for the collected reports
+
+### Methodology
+
+- Completed an initial mapping of the pages containing the financial statements
+- No financial figures have been entered into the final dataset yet.
+The next step will be to identify the exact line items and terminology used by each company before data extraction
