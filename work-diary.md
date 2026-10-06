@@ -254,3 +254,37 @@ Initial indicators:
 - Completed an initial mapping of the pages containing the financial statements
 - No financial figures have been entered into the final dataset yet.
 The next step will be to identify the exact line items and terminology used by each company before data extraction
+
+## 05 October 2026
+
+### Python Setup
+
+- Started the Python analysis phase od the project
+- Confirmed that `pandas` was already installed
+- Installed `openpyxl` to enable reading Excel files with pandas
+
+### Data Loading
+
+- Created the initial `load_data.py` and `analysis.py` files
+- Implemented loading of `financial-data.xlsx` using pandas
+- Adjusted the Excel header row when loading the data because the spreadsheet contains introductory rows before the column headers
+
+### Data Validation
+
+- Confirmed that the dataset contains 19 observations and 10 original financial data columns
+- Verified that there are no missing values
+- Confirmed the presence of LVMH, Kering and Richemont
+- Confirmed the fiscal years included in the dataset
+- Verified that financial values are correctly recognized as numeric data
+- Confirmed the expected fiscal-year coverage: LVMH and Kering from 2020–2025 and Richemont from 2020–2026
+
+### Initial Financial Analysis
+
+- Added calculations for:
+  - Revenue Growth
+  - Operating Margin
+  - Net Profit Margin
+- Calculated Revenue Growth separately for each company using the previous fiscal year
+- Confirmed that the first fiscal year for each company correctly returns no Revenue Growth value because there is no previous year for comparison
+- Verified that the initial calculations run successfully
+- Prepared the project for the next stage of financial analysis
