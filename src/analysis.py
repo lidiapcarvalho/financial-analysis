@@ -25,7 +25,31 @@ def calculate_revenue_growth(df):
     return df
 
 
-# temporario
+def calculate_returns(df):
+    df = df.sort_values(["Company", "Fiscal Year"]).copy()
+
+    df["Average Total Assets"] = (
+        df.groupby("Company")["Total Assets"]
+        .transform(lambda x: x.rolling(2).mean())
+    )
+
+    df["Average Equity"] = (
+        df.groupby("Company")["Equity"]
+        .transform(lambda x: x.rolling(2).mean())
+    )
+
+    df["Return on Assets (ROA)"] = (
+        df["Net Income"] / df["Average Total Assets"] * 100
+    )
+
+    df["Return on Equity (ROE)"] = (
+        df["Net Income"] / df["Average Equity"] * 100
+    )
+
+    return df
+
+
+# temporario - teste
 if __name__ == "__main__":
     from load_data import load_financial_data
 
@@ -33,5 +57,6 @@ if __name__ == "__main__":
 
     df = calculate_margins(df)
     df = calculate_revenue_growth(df)
+    df = calculate_returns(df)
 
     print(df)

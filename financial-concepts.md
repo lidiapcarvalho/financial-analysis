@@ -39,3 +39,23 @@ Profit attributable to non-controlling interests is not included in the `Net Inc
 ### Reporting Terminology
 
 Different companies may use different terminology for economically equivalent financial comcepts. The original terminology is preserved in the source documentation, while the dataset uses standardized column names to make the companies comparable.
+
+## ROA and ROE Methodology
+
+### Return on Assets (ROA)
+
+ROA is calculated using Net Income and average Total Assets:
+
+`ROA = Net Income / Average Total Assets x 100`
+
+Average Total Assets is calculated as the average of Total Assets at the end of the current and previous fiscal years.
+
+### Return on Equity (ROE)
+
+ROE is calculated using Net Income and average Equity:
+
+`ROE = Net Income / Average Equity × 100`
+
+Average Equity is calculated as the average of Equity at the end of the current and previous fiscal years.
+
+For the first fiscal year in the dataset, ROA and ROE are not calculated because the previous year's Total Assets and Equity are not available. This avoids using a different methodology for the first year and keeps the calculation consistent and transparent across the dataset.
