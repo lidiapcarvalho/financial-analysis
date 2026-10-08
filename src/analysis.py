@@ -93,6 +93,23 @@ def compare_period(df):
 
     return comparison_df
 
+def calculate_period_changes(comparison_df):
+    comparison_df["Revenue Change (%)"] = (
+        (comparison_df["Revenue (2025)"] / comparison_df["Revenue (2020)"] - 1)
+        * 100
+    )
+
+    comparison_df["Operating Margin Change (p.p.)"] = (
+        comparison_df["Operating Margin (2025)"]
+        - comparison_df["Operating Margin (2020)"]
+    )
+
+    comparison_df["Net Profit Margin Change (p.p.)"] = (
+        comparison_df["Net Profit Margin (2025)"]
+        - comparison_df["Net Profit Margin (2020)"]
+    )
+
+    return comparison_df
 
     # temporario - teste
 if __name__ == "__main__":
@@ -110,3 +127,16 @@ if __name__ == "__main__":
 
     print("\n2020–2025 Comparison:")
     print(comparison.round(2).to_string())
+
+    comparison = calculate_period_changes(comparison)
+
+    print("\n2020–2025 Performance Changes:")
+    print(
+        comparison[
+            [
+                "Revenue Change (%)",
+                "Operating Margin Change (p.p.)",
+                "Net Profit Margin Change (p.p.)",
+            ]
+        ].round(2).to_string()
+    )
