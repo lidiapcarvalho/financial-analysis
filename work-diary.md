@@ -288,3 +288,26 @@ The next step will be to identify the exact line items and terminology used by e
 - Confirmed that the first fiscal year for each company correctly returns no Revenue Growth value because there is no previous year for comparison
 - Verified that the initial calculations run successfully
 - Prepared the project for the next stage of financial analysis
+
+## 07 October 2026
+
+- Added ROA and ROE analysis
+- Calculated average Total Assets and average Equity by company and fiscal year
+- Calculated ROA and ROE using average assets and equity
+- Kept the first fiscal year as NaN because the previous year's values were not available
+- Fixed the 2020–2025 comparison so that `NaN` values were not incorrectly replaced by the following year's ROA/ROE values
+- Added the ROA and ROE methodology to `financial-concepts.md`
+- Tested the calculations and verified the output
+
+## 08 October 2026
+
+- Improved the financial analysis output
+- Added a 2020–2025 performance comparison
+- Compared Revenue, Operating Margin and Net Profit Margin between 2020 and 2025
+- Added Revenue Change (%) and margin changes in percentage points (p.p.)
+- Verified the results for LVMH, Kering and Richemont
+- Identified different performance patterns across the three companies:
+  - LVMH: strong revenue growth with improved margins
+  - Richemont: strong revenue growth with significant margin improvement
+  - Kering: modest revenue growth with a substantial decline in margins
+- Kept the analysis focused on Revenue and Margins before moving to ROA and ROE analysis
