@@ -49,6 +49,22 @@ def calculate_returns(df):
     return df
 
 
+def display_analysis(df):
+    columns = [
+        "Company",
+        "Fiscal Year",
+        "Revenue",
+        "Revenue Growth",
+        "Operating Margin",
+        "Net Profit Margin",
+        "Return on Assets (ROA)",
+        "Return on Equity (ROE)",
+    ]
+
+    print("\nFinancial Analysis:")
+    print(df[columns].round(2).to_string(index=False))
+
+
 # temporario - teste
 if __name__ == "__main__":
     from load_data import load_financial_data
@@ -59,4 +75,4 @@ if __name__ == "__main__":
     df = calculate_revenue_growth(df)
     df = calculate_returns(df)
 
-    print(df)
+    display_analysis(df)
