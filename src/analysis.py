@@ -75,23 +75,37 @@ def display_analysis(df):
 def compare_period(df):
     comparison = df[df["Fiscal Year"].between(2020, 2025)].copy()
 
-    start = comparison[comparison["Fiscal Year"] == 2020].set_index("Company")
-    end = comparison[comparison["Fiscal Year"] == 2025].set_index("Company")
+    start = comparison[
+        comparison["Fiscal Year"] == 2020
+    ].set_index("Company")
+
+    start_returns = comparison[
+        comparison["Fiscal Year"] == 2021
+    ].set_index("Company")
+
+    end = comparison[
+        comparison["Fiscal Year"] == 2025
+    ].set_index("Company")
 
     comparison_df = pd.DataFrame({
         "Revenue (2020)": start["Revenue"],
         "Revenue (2025)": end["Revenue"],
+
         "Operating Margin (2020)": start["Operating Margin"],
         "Operating Margin (2025)": end["Operating Margin"],
+
         "Net Profit Margin (2020)": start["Net Profit Margin"],
         "Net Profit Margin (2025)": end["Net Profit Margin"],
-        "ROA (2020)": start["Return on Assets (ROA)"],
+
+        "ROA (2021)": start_returns["Return on Assets (ROA)"],
         "ROA (2025)": end["Return on Assets (ROA)"],
-        "ROE (2020)": start["Return on Equity (ROE)"],
+
+        "ROE (2021)": start_returns["Return on Equity (ROE)"],
         "ROE (2025)": end["Return on Equity (ROE)"],
     })
 
     return comparison_df
+
 
 def calculate_period_changes(comparison_df):
     comparison_df["Revenue Change (%)"] = (
@@ -109,7 +123,18 @@ def calculate_period_changes(comparison_df):
         - comparison_df["Net Profit Margin (2020)"]
     )
 
+    comparison_df["ROA Change (p.p.)"] = (
+        comparison_df["ROA (2025)"]
+        - comparison_df["ROA (2021)"]
+    )
+
+    comparison_df["ROE Change (p.p.)"] = (
+        comparison_df["ROE (2025)"]
+        - comparison_df["ROE (2021)"]
+    )
+
     return comparison_df
+
 
     # temporario - teste
 if __name__ == "__main__":
@@ -137,6 +162,16 @@ if __name__ == "__main__":
                 "Revenue Change (%)",
                 "Operating Margin Change (p.p.)",
                 "Net Profit Margin Change (p.p.)",
+            ]
+        ].round(2).to_string()
+    )
+
+    print("\n2021–2025 ROA and ROE Changes:")
+    print(
+        comparison[
+            [
+                "ROA Change (p.p.)",
+                "ROE Change (p.p.)",
             ]
         ].round(2).to_string()
     )
