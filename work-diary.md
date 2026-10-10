@@ -311,3 +311,12 @@ The next step will be to identify the exact line items and terminology used by e
   - Richemont: strong revenue growth with significant margin improvement
   - Kering: modest revenue growth with a substantial decline in margins
 - Kept the analysis focused on Revenue and Margins before moving to ROA and ROE analysis
+
+## 09/10/2026
+
+- Reviewed ROA and ROE calculations and results
+- Updated the 2020–2025 performance comparison to compare ROA and ROE between 2021 and 2025, due to missing 2019 data
+- Added ROA and ROE changes in percentage points (p.p.)
+- Compared profitability trends across LVMH, Kering and Richemont
+- Identified a strong decline in Kering's profitability, decreasing returns for LVMH, and improving returns for Richemont
+- Validated the calculations and confirmed that missing ROA and ROE values for 2020 remained unchanged
