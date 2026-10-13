@@ -320,3 +320,11 @@ The next step will be to identify the exact line items and terminology used by e
 - Compared profitability trends across LVMH, Kering and Richemont
 - Identified a strong decline in Kering's profitability, decreasing returns for LVMH, and improving returns for Richemont
 - Validated the calculations and confirmed that missing ROA and ROE values for 2020 remained unchanged
+
+## 13/10/2026
+
+- Reviewed financial analysis results for LVMH, Kering and Richemont
+- Compared revenue growth, profit margins, ROA and ROE across the three companies
+- Identified a methodological improvement for ROE: use equity attributable to owners of the parent company instead of total equity
+- Planned to add a separate Equity Attributable to Owners column while preserving the original Equity data
+- Prepared to collect the required equity figures before updating the ROE calculation
