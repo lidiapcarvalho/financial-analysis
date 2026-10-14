@@ -52,10 +52,14 @@ Average Total Assets is calculated as the average of Total Assets at the end of 
 
 ### Return on Equity (ROE)
 
-ROE is calculated using Net Income and average Equity:
+ROE measures how efficiently a company generates profit from the equity attributable to its parent company's shareholders.
 
-`ROE = Net Income / Average Equity × 100`
+ROE is calculated using Net Income attributable to the owners of the group and average Equity Attributable to Owners:
 
-Average Equity is calculated as the average of Equity at the end of the current and previous fiscal years.
+`ROE = Net Income / Average Equity Attributable to Owners × 100`
 
-For the first fiscal year in the dataset, ROA and ROE are not calculated because the previous year's Total Assets and Equity are not available. This avoids using a different methodology for the first year and keeps the calculation consistent and transparent across the dataset.
+Average Equity Attributable to Owners is calculated as the average of the equity attributable to the parent company's shareholders at the end of the current and previous fiscal years.
+
+For consistency, the numerator and denominator refer to the parent company's shareholders. Total equity, including non-controlling interests, is not used in the ROE calculation.
+
+For the first fiscal year in the dataset, ROE is not calculated because the previous year's Equity Attributable to Owners is not available. This keeps the calculation consistent across the dataset.
