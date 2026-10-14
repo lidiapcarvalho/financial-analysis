@@ -15,7 +15,10 @@
 | Net Income             | Resultado Líquido                  | Profit remaining after expenses, interest and taxes have been deducted                           | 🟡 |
 | Total Assets           | Ativo Total                        | Everything of value owned or controlled by a company.                                            | 🟡 |
 | Total Liabilities      | Passivo Total                      | Financial obligations and debts owmed by a company.                                              | 🟡 |
-| Shareholders' Equity   | Capital Próprio                    | The value attributable to the company's shareholders after liabilities are deducted from assets. | 🟡 |
+| Total Equity           | Capital Próprio Total              | The residual interest in a comapny's assets after deducting all its liabilities. It may include equity attributable to the parent company's owners and non-controlling interests.                                                                                       | 🟡 |
+| Shareholders' Equity   | Capital Próprio dos Acionistas     | The portion of equity attributable to the company's shareholders. The exact scope depends on the context and reporting terminology.                                                                                                                               | 🟡 |
+| Equity Attributable to Owners | Capital Próprio Atribuível aos Acionistas da Empresa-Mãe | The portion of a group's equity attributable to the owners of its parent company, excluding non-controlling interests.                                                                                                                    | 🟡 |
+| Non-controlling Interests | Interesses que Não Controlam    | The portion of a subsidiary's equity and profit attributable to shareholders other than the parent company.                                                                                                                                                         | 🟡 |
 | Revenue Growth         | Crescimento da receita             | The increase or decrease in revenue over a given period.                                         | 🟡 |
 | Operating Margin       | Margem Operacional                 | Operating income expressed as a percentage of revenue.                                           | 🟡 |
 | Net Profit Margin      | Margem Líquida                     | Net income expressed as a percentage of revenue.                                                 | 🟡 |
@@ -33,4 +36,5 @@
 
 - `Revenue` is translated as **receita** in this project. Although "rendimento" may appear as a translation in some contexts, it is not the preferred term here.
 - `Income` can have different meanings depending on the financial context. For example, `Net Income` and `Operating Income` do not translate simplys as "rendimento".
+- **Total Equity and Equity Attributable to Owners** are different concepts. The latter excludes non-controlling interests and is used to calculate ROE in this project.
 - Financial concepts and formulas are documented separately in [`financial-concepts.md`](financial-concepts.md).
