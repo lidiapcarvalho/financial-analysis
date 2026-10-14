@@ -33,8 +33,8 @@ def calculate_returns(df):
         .transform(lambda x: x.rolling(2).mean())
     )
 
-    df["Average Equity"] = (
-        df.groupby("Company")["Equity"]
+    df["Average Equity Attributable to Owners"] = (
+        df.groupby("Company")["Equity Attributable to Owners"]
         .transform(lambda x: x.rolling(2).mean())
     )
 
@@ -43,7 +43,7 @@ def calculate_returns(df):
     )
 
     df["Return on Equity (ROE)"] = (
-        df["Net Income"] / df["Average Equity"] * 100
+        df["Net Income"] / df["Average Equity Attributable to Owners"] * 100
     )
 
     return df
