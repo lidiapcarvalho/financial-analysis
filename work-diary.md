@@ -328,3 +328,13 @@ The next step will be to identify the exact line items and terminology used by e
 - Identified a methodological improvement for ROE: use equity attributable to owners of the parent company instead of total equity
 - Planned to add a separate Equity Attributable to Owners column while preserving the original Equity data
 - Prepared to collect the required equity figures before updating the ROE calculation
+
+## 14/10/2026
+
+- Added the **Equity Attributable to Owners** column to `financial-data.xlsx`
+- Updated the ROE calculation to use average equity attributable to the parent company's shareholders
+- Kept the ROA calculation unchanged, using average total assets
+- Executed the financial analysis and verified the updated ROE results for LVMH, Kering and Richemont
+- Updated `financial-concepts.md` to document the revised ROE methodology
+- Reviewed and expanded `financial-glossary.md` with equity-related terminology and corrected financial definitions
+- Kept the changes organised in separate commits
